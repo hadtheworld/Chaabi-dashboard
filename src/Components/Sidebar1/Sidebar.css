@@ -1,0 +1,233 @@
+
+
+
+  #sidebar1{
+    width: 20%;
+    height: 100vh;
+    flex-shrink: 0;
+  }
+  #frame1{
+    display: flex;
+width: 100%;
+height: 100vh;
+flex-direction: column;
+justify-content: flex-end;
+align-items: center;
+box-shadow: 0px 4px 4px 0px #0D62FF;
+  }
+  #sidebar-elements{
+    width: 100%;
+height: 100%;
+background: #FFF;
+box-shadow: 0px 11.633987426757812px 34.90196228027344px 0px rgba(17, 38, 146, 0.05);
+
+  }
+  
+
+#sidebar-warn{
+  color: rgba(51, 51, 51, 0.20);
+font-family: Poppins;
+font-size: 11.634px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+}
+
+  #logo-img{
+    width: 100% !important;
+    height: 70% !important;
+    flex-shrink: 0;
+  /* background: url(../../Images/logo.png) lightgray 50% / cover no-repeat; */
+  }
+  
+  #main-logo{
+    display: flex;
+width: 100%;
+flex-direction: column;
+align-items: flex-start;
+  }
+  #logo{
+    display: flex;
+width: 60%;
+height: 10vh;
+padding: 10% 20% 10% 20%;
+align-items: center;
+gap: 15.083px;
+  }
+
+ 
+
+
+  #seperator{
+    width: 100%;
+height: 1.885px;
+border: 0px solid var(--foundation-blue-light, #E7EFFF);
+background: rgba(51, 51, 51, 0.20);
+  }
+
+  #main-sidebar{
+    display: flex;
+width: 100%;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+  }
+
+  #menu-list{
+
+    display: flex;
+width: 100%;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 9.307px;
+  }
+
+  #courses{
+    display: flex;
+width: 100%;
+box-sizing: border-box;
+padding: 3.4% 5%;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+border-radius: 0px 37.229px 37.229px 0px;
+
+  }
+
+  #messages-courses{
+    display: flex;
+align-items: center;
+width: 100%;
+gap: 63.987px;
+  }
+#messages-inner-courses{
+  display: flex;
+  width: 100%;
+  align-items: center;
+  gap: 5%;
+  color: var(--foundation-blue-normal, #0D62FF);
+
+/* Title 1 */
+font-family: Poppins;
+font-size: 19px;
+font-style: normal;
+font-weight: 400;
+line-height: 140%; /* 26.6px */
+text-transform: capitalize;
+}
+
+.icon{width: 27.922px;
+  height: 27.922px;
+}
+
+#users{
+  display: flex;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 3.4% 5%;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+border-radius: 0px 37.229px 37.229px 0px;
+}
+#messages-users{
+  display: flex;
+align-items: center;
+width: 100%;
+gap: 66.314px;
+}
+
+#messages-inner-users{
+  display: flex;
+align-items: center;
+width: 100%;
+gap: 5%;
+color: var(--foundation-blue-normal, #0D62FF);
+
+/* Title 1 */
+font-family: Poppins;
+font-size: 19px;
+font-style: normal;
+font-weight: 400;
+line-height: 140%; /* 26.6px */
+text-transform: capitalize;
+}
+
+#dropdown{
+  display: flex;
+width: 27.922px;
+height: 27.922px;
+transform: rotate(-90deg);
+justify-content: center;
+align-items: center;
+border-radius: 18.614px;
+}
+
+.analytics{
+  display: flex;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 3.4% 5%;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+border-radius: 0px 37.229px 37.229px 0px;
+}
+
+.messages-analytics{
+  display: flex;
+align-items: center;
+width: 100%;
+gap: 89.582px;
+}
+
+.messages-analytics-inner{
+  display: flex;
+align-items: center;
+width: 100%;
+gap: 5%;
+color: var(--foundation-blue-normal, #0D62FF);
+
+/* Title 1 */
+font-family: Poppins;
+font-size: 19px;
+font-style: normal;
+font-weight: 400;
+line-height: 140%; /* 26.6px */
+text-transform: capitalize;
+}
+
+#overview{
+  display: flex;
+width: 80%;
+padding: 3% 5%;
+margin-left: 3%;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+border-radius: 4.654px;
+background: var(--foundation-blue-normal, #0D62FF);
+box-shadow: 0px 2.3267974853515625px 4.653594970703125px 0px rgba(138, 146, 166, 0.30);
+}
+
+#messages-overview{
+  display: flex;
+align-items: center;
+gap: 66.314px;
+}
+
+#messages-overview-inner{
+  display: flex;
+align-items: center;
+gap: 18.614px;
+color: #FFF;
+
+/* Title 1 */
+font-family: Poppins;
+font-size: 19px;
+font-style: normal;
+font-weight: 400;
+line-height: 140%; /* 26.6px */
+text-transform: capitalize;
+}
